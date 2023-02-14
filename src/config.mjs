@@ -1,15 +1,15 @@
 import defaultImage from './assets/images/default.png';
 
 const CONFIG = {
-  name: 'AstroWind',
+  name: 'David Šarman\'s personal blog',
 
-  origin: 'https://astrowind.vercel.app',
+  origin: 'https://sarman.work',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'AstroWind — Free template for create a website with Astro + Tailwind CSS',
+  title: 'David Šarman\'s personal blog',
   description:
-    '🚀 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.',
+    'Freelance software engineer, struggling to optimise life.',
   defaultImage: defaultImage,
 
   defaultTheme: 'system', // Values: "system" | "light" | "dark" | "light:only" | "dark:only"
@@ -38,7 +38,7 @@ const CONFIG = {
     },
 
     list: {
-      pathname: 'blog', // Blog main path, you can change this to "articles" (/articles)
+      pathname: '', // Blog main path, you can change this to "articles" (/articles)
       noindex: false,
       disabled: false,
     },
